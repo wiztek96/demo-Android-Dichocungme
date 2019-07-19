@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nhập số tiền (Nghìn VNĐ) "
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:editable="false"/>
+    <TextView
+        android:id="@+id/qspac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="10dp"
+        android:editable="false"/>
+    <TextView
+        android:id="@+id/thit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Thịt"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:editable="false"/>
+
+    <EditText
+        android:id="@+id/edtThit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:inputType="numberDecimal"
+        android:hint="NHẬP SỐ TIỀN"
+        android:textColor="#ff0000"/>
+
+    <TextView
+        android:id="@+id/rau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Rau"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:editable="false"/>
+
+    <EditText
+        android:id="@+id/edtRau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtThit"
+        android:layout_alignStart="@+id/edtThit"
+        android:layout_alignLeft="@+id/edtThit"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:inputType="numberDecimal"
+        android:hint="NHẬP SỐ TIỀN"
+        android:textColor="#ff0000"/>
+
+    <TextView
+        android:id="@+id/hoaqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Hoa quả"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:editable="false"/>
+
+    <EditText
+        android:id="@+id/edtHoaqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edtRau"
+        android:layout_alignLeft="@+id/edtRau"
+        android:layout_alignTop="@+id/edtThit"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:inputType="numberDecimal"
+        android:hint="NHẬP SỐ TIỀN"
+        android:textColor="#ff0000"/>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="215dp"
+        android:padding="18dp"
+        android:text="Tính"
+        android:textAllCaps="false" />
+</RelativeLayout>
+
+</LinearLayout>
